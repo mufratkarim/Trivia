@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="questions_text_style">
+        <item name="android:fontFamily">@font/chicle</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:shadowColor">#325457</item>
+        <item name="android:textColor">#DDAA29</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="button_style" parent="questions_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">#BCFA4913</item>
+    </style>
+
+    <style name="score_text_style" parent="questions_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#E400FF68</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
